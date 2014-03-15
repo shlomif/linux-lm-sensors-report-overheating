@@ -10,7 +10,7 @@ N_S = $(shell seq 400 99999)
 
 N_S_RESULTS = $(patsubst %,RESULTS/ten%.result,$(N_S))
 
-results: $(N_S_RESULTS)
+results: all $(N_S_RESULTS)
 
 $(N_S_RESULTS):
 	A="$(patsubst RESULTS/ten%.result,%,$@)"; ./455-v2.exe "$$((A * 10 + 1))" "$$(( (A + 1) * 10 ))" | tee  $@
