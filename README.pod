@@ -1,0 +1,25 @@
+=encoding utf-8
+
+=head1 ABOUT
+
+This is a repository demonstrating a frequent overheating of my CPU with
+a program. To run type:
+
+    nice -19 make -j2 results
+
+My CPU is an Intel Core i3 CPU of a computer with these SPECS:
+
+    An Intel Core i3 CPU (x86-64).
+    8 GB of RAM.
+    Intel Corporation Sandy Bridge Integrated Graphics Controller (rev 09)
+    A 2 TB hard-disk.
+    A 21״ Wide LCD Screen by LG.
+    Intel Corporation Cougar Point High Definition Audio Controller.
+    Intel Corporation 82579V Gigabit Network Connection.
+
+After you run the command inside tmux, type the "sensors" command to monitor
+the CPU temperature.
+
+I'm using Mageia Linux x86-64 5/Cauldron ( L<http://www.mageia.org/> ).
+
+=cut
